@@ -1,0 +1,5 @@
+server racks, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>
+server racks, datacenter, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>
+server racks, datacenter, cables, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>
+server racks, datacenter, cables, data storage, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>
+server racks, datacenter, cables, data storage, industrial battery storage, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>

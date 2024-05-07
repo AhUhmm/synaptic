@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "settings",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"seconds" : [ 6 ],
+					"times" : [ 3 ],
+					"u953010366" : [ 27 ],
+					"osc_port" : [ 8001 ],
+					"fadr_speed" : [ 3 ],
+					"custom_speed" : [ 2.0 ],
+					"auto_interval" : [ 90 ],
+					"mixfadr::operator" : [ 13.0 ],
+					"mixfadr::xfade-value" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

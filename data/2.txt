@@ -1,0 +1,5 @@
+desert land,
+dry arid land,
+rivers, waters,
+abundant rivers, water,
+swamp pools, water,

@@ -1,0 +1,5 @@
+rain, stormy clouds,
+stormy clouds,
+cloudy sky,
+clear sky,
+clear sky, sunny,
