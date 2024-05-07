@@ -1,4 +1,4 @@
 *.png
-_DeletedItems
-Backup
-duplicates
+_DeletedItems/
+Backup/
+duplicates/
