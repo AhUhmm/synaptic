@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 544.0, 341.0, 1384.0, 740.0 ],
+		"openrect" : [ 544.0, 341.0, 1454.0, 926.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 1384.0,
+		"devicewidth" : 1454.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -40,6 +40,148 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1881.0, 2335.0, 59.0, 22.0 ],
+					"text" : "route text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"bordercolor" : [ 0.101961, 0.490196, 0.945098, 1.0 ],
+					"fontname" : "Cascadia Mono",
+					"id" : "obj-19",
+					"keymode" : 1,
+					"linecount" : 15,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"outputmode" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 1912.833258152008057, 2274.333246231079102, 116.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 13.0, 872.0, 833.0, 50.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_prelisten"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_meter_bg"
+						}
+
+					}
+,
+					"tabmode" : 0,
+					"text" : "hot dog stand inside server room, open flowers,  dry arid landscape,  cloudy sky,  clear view,  at twilight,  server racks, datacenter, cables, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>",
+					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-261",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 717.0, 548.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 709.0, 640.0, 128.0, 23.0 ],
+					"text" : "EMG 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-258",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 577.0, 548.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 571.0, 640.0, 128.0, 23.0 ],
+					"text" : "Light"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-214",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 436.0, 548.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 431.0, 640.0, 128.0, 23.0 ],
+					"text" : "Humidity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-181",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 296.0, 548.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 292.0, 640.0, 128.0, 23.0 ],
+					"text" : "Temperature"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-123",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 167.0, 548.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 640.0, 128.0, 23.0 ],
+					"text" : "Soil"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Cascadia Mono",
+					"fontsize" : 14.0,
+					"id" : "obj-86",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 877.0, 857.0, 145.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 21.0, 640.0, 128.0, 23.0 ],
+					"text" : "EMG 2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-319",
 					"maxclass" : "newobj",
@@ -144,7 +286,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2716.0, 2186.916598081588745, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1257.0, 603.0, 38.0, 22.0 ],
+					"presentation_rect" : [ 1242.0, 702.0, 38.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -174,7 +316,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2764.0, 2187.916598081588745, 62.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1297.0, 604.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 1282.0, 703.0, 59.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -210,7 +352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2428.0, 2311.916598081588745, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1332.0, 576.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 1317.0, 675.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_control_selection_variant"
@@ -232,7 +374,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2635.0, 2548.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1358.0, 576.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 1343.0, 675.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"blinkcolor" : 						{
 							"expression" : "themecolor.live_alert"
@@ -354,7 +496,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1172.0, 420.0, 230.0, 154.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 32.0, 626.0, 465.0 ],
+					"presentation_rect" : [ 12.0, 4.0, 834.0, 621.0 ],
 					"sync" : 1
 				}
 
@@ -399,7 +541,7 @@
 					}
 ,
 					"text" : "pattr auto_interval_min",
-					"varname" : "auto_prompt_min"
+					"varname" : "auto_interval_min"
 				}
 
 			}
@@ -445,7 +587,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2360.416576623916626, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 711.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 705.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -607,7 +749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1832.333264350891113, 1030.083338975906372, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 898.19047737121582, 546.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 884.0, 638.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -629,7 +771,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1704.999929904937744, 246.0, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 798.5, 200.0, 59.636365413665771, 20.0 ],
+					"presentation_rect" : [ 1006.0, 471.0, 59.636365413665771, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -655,7 +797,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1033.0, 112.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 758.5, 200.0, 41.0, 22.0 ],
+					"presentation_rect" : [ 966.0, 471.0, 41.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -739,7 +881,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 835.0, 166.0, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 699.5, 200.0, 59.636365413665771, 20.0 ],
+					"presentation_rect" : [ 907.0, 471.0, 59.636365413665771, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -880,7 +1022,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 816.0, 101.0, 18.0, 98.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 680.5, 131.0, 18.0, 98.0 ],
+					"presentation_rect" : [ 888.0, 402.0, 18.0, 98.0 ],
 					"saved_attribute_attributes" : 					{
 						"activecolor" : 						{
 							"expression" : "themecolor.live_control_selection"
@@ -924,8 +1066,7 @@
 					"fontname" : "Cascadia Mono",
 					"fontsize" : 14.0,
 					"id" : "obj-256",
-					"ignoreclick" : 1,
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -933,8 +1074,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2048.249914407730103, 2618.833243370056152, 468.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 23.0, 644.0, 824.0, 70.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 17.0, 795.0, 824.0, 70.0 ],
+					"readonly" : 1,
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -942,7 +1084,8 @@
 
 					}
 ,
-					"text" : "\"server room inside rainforest, dry leaves rivers, waters, cloudy sky, steamy dense fog, at noon server racks, datacenter, cables, data storage, industrial battery storage, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>\"",
+					"tabmode" : 0,
+					"text" : "\"server room inside rainforest, healthy leaves, dry arid land, cloudy sky, hazy light fog, late morning, server racks, datacenter, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>\"",
 					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ]
 				}
 
@@ -982,7 +1125,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2527.0, 2186.916598081588745, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1157.0, 603.0, 38.0, 22.0 ],
+					"presentation_rect" : [ 1142.0, 702.0, 38.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1012,7 +1155,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2575.0, 2187.916598081588745, 62.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1197.0, 604.0, 58.0, 20.0 ],
+					"presentation_rect" : [ 1182.0, 703.0, 58.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1046,7 +1189,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.0, 1340.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1079.0, 210.0, 41.0, 20.0 ],
+					"presentation_rect" : [ 1039.0, 214.0, 41.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1067,7 +1210,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 835.0, 145.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 699.5, 176.0, 159.0, 20.0 ],
+					"presentation_rect" : [ 907.0, 447.0, 159.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1089,7 +1232,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 835.0, 123.0, 163.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 697.5, 155.0, 163.0, 20.0 ],
+					"presentation_rect" : [ 905.0, 426.0, 163.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1111,7 +1254,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 835.0, 101.0, 194.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 697.5, 131.0, 163.0, 20.0 ],
+					"presentation_rect" : [ 905.0, 402.0, 163.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1133,7 +1276,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 538.0, 1339.0, 28.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1049.0, 209.0, 29.0, 20.0 ],
+					"presentation_rect" : [ 1009.0, 213.0, 29.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1155,7 +1298,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 404.0, 1339.0, 78.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 209.0, 76.0, 20.0 ],
+					"presentation_rect" : [ 888.0, 213.0, 76.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1181,7 +1324,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 484.0, 1339.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1006.0, 209.0, 41.0, 22.0 ],
+					"presentation_rect" : [ 966.0, 213.0, 41.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1272,7 +1415,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1861.499929904937744, 1161.333333969116211, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1015.0, 598.0, 68.0, 22.0 ],
+					"presentation_rect" : [ 1001.0, 690.0, 68.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1506,7 +1649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1345.0, 2558.833243370056152, 79.0, 22.0 ],
-					"restore" : [ 11 ],
+					"restore" : [ 10 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1590,7 +1733,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1343.0, 2358.833243370056152, 134.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 445.0, 199.0, 35.5 ],
+					"presentation_rect" : [ 1137.0, 536.0, 199.0, 35.5 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"textoncolor" : 						{
@@ -1617,7 +1760,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2456.0, 2549.333243370056152, 134.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 397.0, 199.0, 35.5 ],
+					"presentation_rect" : [ 1137.0, 488.0, 199.0, 35.5 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"textoncolor" : 						{
@@ -1641,7 +1784,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1343.0, 2295.333246231079102, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 365.0, 118.579240202903748, 20.0 ],
+					"presentation_rect" : [ 1137.0, 456.0, 118.579240202903748, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1663,7 +1806,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 565.0, 1158.0, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 338.0, 118.579240202903748, 20.0 ],
+					"presentation_rect" : [ 1137.0, 429.0, 118.579240202903748, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1685,7 +1828,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 1158.0, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 311.0, 118.579240202903748, 20.0 ],
+					"presentation_rect" : [ 1137.0, 402.0, 118.579240202903748, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -1709,7 +1852,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.0, 1040.0, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1157.0, 539.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 1142.0, 638.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -1797,7 +1940,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 574.0, 1121.0, 81.0, 22.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 4 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1832,7 +1975,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 552.0, 1178.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 805.5, 338.0, 73.0, 22.0 ],
+					"presentation_rect" : [ 1263.0, 429.0, 73.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1865,7 +2008,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 489.0, 1178.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 805.5, 311.0, 73.0, 22.0 ],
+					"presentation_rect" : [ 1263.0, 402.0, 73.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -1915,7 +2058,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1343.0, 2268.333246231079102, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 805.5, 366.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 1263.0, 457.0, 73.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_selection"
@@ -1923,7 +2066,7 @@
 
 					}
 ,
-					"text" : "11"
+					"text" : "10"
 				}
 
 			}
@@ -2008,7 +2151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2581.0, 2618.833243370056152, 338.0, 64.0 ],
-					"text" : "\"server room inside rainforest, dry leaves rivers, waters, cloudy sky, steamy dense fog, at noon server racks, datacenter, cables, data storage, industrial battery storage, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>\""
+					"text" : "\"server room inside rainforest, healthy leaves, dry arid land, cloudy sky, hazy light fog, late morning, server racks, datacenter, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>\""
 				}
 
 			}
@@ -2188,7 +2331,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1377.5, 1239.583286046981812, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.5, 272.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 1137.0, 363.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -2213,7 +2356,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 54.5, 2184.0, 134.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1157.0, 678.0, 199.0, 35.5 ],
+					"presentation_rect" : [ 1142.0, 777.0, 199.0, 35.5 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"textoncolor" : 						{
@@ -2239,7 +2382,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1581.999929904937744, 212.0, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 680.5, 32.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 887.90476131439209, 14.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -2263,7 +2406,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 816.0, 24.0, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 680.5, 92.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 888.0, 363.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -2287,7 +2430,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 1616.0, 237.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 91.0, 177.0, 25.0 ],
+					"presentation_rect" : [ 888.0, 95.0, 177.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_freeze_color"
@@ -2309,7 +2452,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1761.49993371963501, 1161.333333969116211, 92.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 898.19047737121582, 598.0, 119.0, 20.0 ],
+					"presentation_rect" : [ 884.0, 690.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2333,7 +2476,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1730.999929904937744, 264.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 796.5, 35.0, 75.824179530143738, 22.0 ],
+					"presentation_rect" : [ 1003.90476131439209, 17.0, 75.824179530143738, 22.0 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -2401,7 +2544,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 1689.0, 199.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 128.0, 136.0, 20.0 ],
+					"presentation_rect" : [ 888.0, 132.0, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2463,7 +2606,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 189.0, 1861.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1070.0, 182.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 1030.0, 186.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -2487,7 +2630,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 27.0, 1863.0, 190.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 183.0, 136.0, 20.0 ],
+					"presentation_rect" : [ 888.0, 187.0, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2537,7 +2680,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 197.0, 1758.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1070.0, 155.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 1030.0, 159.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -2561,7 +2704,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 1760.0, 182.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 156.0, 136.0, 20.0 ],
+					"presentation_rect" : [ 888.0, 160.0, 136.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2583,7 +2726,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2356.249910116195679, 2486.0, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1157.0, 578.0, 98.0, 20.0 ],
+					"presentation_rect" : [ 1142.0, 677.0, 98.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2606,7 +2749,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2493.249910116195679, 2486.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1257.0, 576.569444309920073, 76.19047737121582, 22.861111380159855 ],
+					"presentation_rect" : [ 1242.0, 676.0, 76.19047737121582, 22.861111380159855 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -2663,7 +2806,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 197.0, 1687.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1070.0, 127.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 1030.0, 131.0, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -2687,7 +2830,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2179.749914407730103, 1204.0, 186.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 898.19047737121582, 624.0, 119.0, 20.0 ],
+					"presentation_rect" : [ 884.0, 716.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2712,8 +2855,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2107.333253860473633, 1284.0, 222.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 652.0, 89.0, 33.0 ],
-					"text" : "/2 : 0.211112"
+					"presentation_rect" : [ 884.0, 770.0, 184.80952262878418, 33.0 ],
+					"text" : "/synaptic/emg2 : 1."
 				}
 
 			}
@@ -2726,7 +2869,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2099.333253860473633, 1255.0, 170.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 898.19047737121582, 652.0, 119.0, 20.0 ],
+					"presentation_rect" : [ 884.0, 744.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_inactive_automation"
@@ -2780,7 +2923,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1385.833333015441895, 1279.166617870330811, 134.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1157.0, 632.0, 199.0, 35.5 ],
+					"presentation_rect" : [ 1142.0, 731.0, 199.0, 35.5 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"textoncolor" : 						{
@@ -2826,7 +2969,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2222.916581869125366, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 573.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 567.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3179,7 +3322,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2083.333253860473633, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 433.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 427.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3202,7 +3345,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1943.749925851821899, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 294.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 288.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3225,7 +3368,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1808.333264350891113, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 158.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 152.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3248,7 +3391,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1672.916602849960327, 1668.74993634223938, 136.0, 86.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 552.0, 136.0, 86.0 ],
+					"presentation_rect" : [ 17.0, 664.0, 136.0, 116.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -3384,8 +3527,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 7,
 					"outlettype" : [ "", "", "", "", "", "", "FullPacket" ],
-					"patching_rect" : [ 1904.1665940284729, 1370.83328104019165, 126.0, 22.0 ],
-					"text" : "o.route /1 /2 /3 /4 /5 /6"
+					"patching_rect" : [ 1803.333253860473633, 1375.0, 579.0, 22.0 ],
+					"text" : "o.route /synaptic/emg2 /synaptic/soil /synaptic/temperature /synaptic/humidity /synaptic/light /synaptic/emg1"
 				}
 
 			}
@@ -3412,7 +3555,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2097.749914407730103, 1204.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1011.0, 623.0, 76.0, 23.0 ],
+					"presentation_rect" : [ 997.0, 715.0, 76.0, 23.0 ],
 					"rounded" : 4.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -3720,7 +3863,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 41.0, 59.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 546.0, 833.0, 98.0 ],
+					"presentation_rect" : [ 13.0, 637.0, 833.0, 149.0 ],
 					"proportion" : 0.5
 				}
 
@@ -3804,7 +3947,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 482.0, 1507.0, 338.0, 22.0 ],
-					"text" : "bang"
+					"text" : "not_ready_yet"
 				}
 
 			}
@@ -4331,7 +4474,7 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"prompt" : "server room inside rainforest, dry leaves rivers, waters, cloudy sky, steamy dense fog, at noon server racks, datacenter, cables, data storage, industrial battery storage, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>",
+						"prompt" : "server room inside rainforest, healthy leaves, dry arid land, cloudy sky, hazy light fog, late morning, server racks, datacenter, <lora:Rainforest-000006:1><lora:Server_Room-000003:1>",
 						"steps" : 50
 					}
 ,
@@ -4498,7 +4641,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 494.0, 1615.0, 400.0, 220.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 928.0, 273.5, 352.0, 205.0 ],
+					"presentation_rect" : [ 1112.0, 95.0, 329.0, 197.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -4526,8 +4669,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -4619,7 +4760,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 27.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 644.0, 833.0, 70.0 ],
+					"presentation_rect" : [ 13.0, 795.0, 833.0, 70.0 ],
 					"proportion" : 0.5,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -5421,6 +5562,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-184", 1 ],
 					"source" : [ "obj-189", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -6421,6 +6569,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-36", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 0 ],
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}

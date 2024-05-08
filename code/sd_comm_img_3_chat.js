@@ -3,6 +3,7 @@ const maxApi = require("max-api");
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+const ExifImage = require("exif").ExifImage;
 
 // Parameters for HTTP request headers
 const promptParams = {
