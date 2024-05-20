@@ -1,17 +1,17 @@
 {
 	"pattrstorage" : 	{
-		"name" : "settings",
+		"name" : "syn_set",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"seconds" : [ 4 ],
-					"times" : [ 20 ],
+					"seconds" : [ 1 ],
+					"times" : [ 1 ],
 					"u953010366" : [ 4 ],
-					"osc_port" : [ 4444 ],
+					"osc_port" : [ 3333 ],
 					"fadr_speed" : [ 3 ],
 					"custom_speed" : [ 2.0 ],
-					"auto_interval_min" : [ 4 ],
+					"auto_interval_min" : [ 0 ],
 					"auto_interval_sec" : [ 30 ],
 					"prompt_interval[1]" : [ 20 ]
 				}

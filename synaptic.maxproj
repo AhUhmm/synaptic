@@ -2,7 +2,7 @@
 	"name" : "synaptic",
 	"version" : 1,
 	"creationdate" : 3780754474,
-	"modificationdate" : 3795453075,
+	"modificationdate" : 3799088886,
 	"viewrect" : [ 1188.0, 797.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -47,6 +47,11 @@
 		}
 ,
 		"data" : 		{
+			"syn_set.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"package.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -104,6 +109,16 @@
 ,
 			"6.txt" : 			{
 				"kind" : "textfile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/synaptic/data",
+					"projectrelativepath" : "./data"
+				}
+
+			}
+,
+			"settings.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
