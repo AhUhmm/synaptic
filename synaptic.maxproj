@@ -34,12 +34,7 @@
 		}
 ,
 		"code" : 		{
-			"sd_comm_img.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"sd_comm.js" : 			{
+			"sd_comm_img_3_chat.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

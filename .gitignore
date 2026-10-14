@@ -2,3 +2,9 @@
 _DeletedItems/
 Backup/
 duplicates/
+.DS_Store
+
+# Model weights (checkpoint and the artist's LoRA files) must never be committed
+*.safetensors
+*.ckpt
+*.pt
